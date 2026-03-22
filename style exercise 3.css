@@ -1,0 +1,89 @@
+/* =========================
+   WHOLE PAGE
+   ========================= */
+body {
+  margin: 0; /* remove browser default spacing */
+  background-color: #ef5cab; /* pink background close to screenshot */
+  font-family: Arial, sans-serif;
+}
+
+/* Main page area */
+.page {
+  width: 650px;           /* overall page width */
+  margin: 0 auto;         /* center the page */
+  padding-top: 10px;
+  position: relative;     /* lets us position cart icon more easily */
+}
+
+/* =========================
+   TOP DECORATION
+   ========================= */
+.top-decoration {
+  text-align: center;
+  font-size: 72px;
+  color: #2b1d1d;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+/* Small cart icon near the right side */
+.cart-icon {
+  width: 380px;           /* same width as photo column */
+  margin: 0 auto;         /* center this area */
+  text-align: right;      /* move icon to the right */
+  font-size: 34px;
+  margin-bottom: 8px;
+}
+
+/* =========================
+   PHOTO CARD
+   ========================= */
+.photo-card {
+  width: 380px;                 /* narrow image column */
+  margin: 0 auto 18px auto;     /* center each card and add spacing below */
+}
+
+/* All images inside photo-card */
+.photo-card img {
+  width: 100%;                  /* fill the card width */
+  display: block;               /* remove small gap below image */
+}
+
+/* Text box under each image */
+.caption {
+  background-color: #efeecf;    /* cream background */
+  color: #57dfff;               /* bright light blue text */
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.15;
+  padding: 6px 4px;
+}
+
+/* Small button like in screenshot */
+.photo-card button {
+  margin-top: 4px;
+  font-size: 11px;
+  padding: 1px 5px;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+.footer-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin: 8px 0 10px 6px;
+}
+
+/* Footer list */
+.footer-links {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Link color */
+.footer-links a {
+  color: blue;
+}

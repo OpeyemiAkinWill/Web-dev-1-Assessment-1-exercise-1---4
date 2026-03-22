@@ -1,0 +1,54 @@
+
+/* Page background and font */
+
+body {
+    background-color: white;
+    font-family: Times New Roman;
+    padding: 2px;
+    font-size: 20px;
+}
+ 
+/* title heading - to set the background colour that stands out, it part of setting the styling and to make the page appealing to users*/
+h1 {
+    color: black;
+    text-align:left;
+    background-color:lightgrey;
+    padding: 40px;
+    margin:3px;
+    border: 4px grey;
+    display: flex;
+    
+
+ 
+/* Intro text */
+.intro {
+    color: #2e7d32;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+p {
+  
+  font-family: Times New Roman;
+  font-size: 20px;
+  padding: 2px;
+  text-align:left;
+}
+ 
+/* Ingredients list, this set to be unorder list which is the bullet point */
+ul {
+    background-color: white;
+    width: 290px;
+    text-align:left;
+    padding: 15px;
+    font-size: 18px;
+}
+ 
+/* Instructions, this is set to be on order list, which means, instructions must be followered as listed from top to the bottom. */
+li {
+    margin-bottom: 10px;
+    text-align:left;
+}
+ }
+
